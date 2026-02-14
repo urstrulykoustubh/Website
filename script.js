@@ -4,6 +4,8 @@ const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 const noDialog = document.getElementById("noDialog");
 const closeDialog = document.getElementById("closeDialog");
+const couplePhoto = document.getElementById("couplePhoto");
+const photoHint = document.getElementById("photoHint");
 
 function showLoveLetter() {
   proposal.classList.add("hidden");
@@ -19,4 +21,9 @@ noBtn.addEventListener("click", () => {
 closeDialog.addEventListener("click", () => {
   noDialog.close();
   showLoveLetter();
+});
+
+couplePhoto.addEventListener("error", () => {
+  couplePhoto.classList.add("hidden");
+  photoHint.classList.remove("hidden");
 });

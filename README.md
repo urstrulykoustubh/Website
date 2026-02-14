@@ -6,6 +6,15 @@ A cute interactive website with:
 - A playful popup if **No** is clicked
 - A long love letter section
 - Built-in romantic image card (so no photo upload is required)
+=======
+- A long love letter section with your couple photo
+
+## Add your photo
+Put your photo at:
+
+```text
+assets/us-photo.jpg
+```
 
 ## Host on GitHub Pages (direct link)
 1. Create a GitHub repository and push this code.
